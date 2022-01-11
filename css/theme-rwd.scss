@@ -1,0 +1,137 @@
+@media (max-width: 575px) {
+  html {
+    font-size: 2.5vw;
+
+    body {
+      .mobile-br {
+        display: block;
+      }
+
+      .mobile-hide{
+        display: none;
+      }
+
+      section {
+        padding: 8% 0 5% 0;
+      }
+
+      .my-container{
+        padding: 0 4%;
+      }
+
+      .commitment {
+        .content {
+          padding: 3.5% 2.5%;
+
+          ol {
+            li {
+              &::before {
+                padding-left: 10vw;
+                ;
+              }
+            }
+          }
+        }
+      }
+
+      .process {
+        .content {
+          .step {
+            width: 18%;
+
+            .description {
+              font-size: 1rem;
+              margin: 0 8%;
+            }
+          }
+
+          img.arrow {
+            padding-bottom: 16%;
+          }
+        }
+      }
+
+      .online-service {
+        .content {
+          form {
+            padding: 0 0;
+
+            .divider {
+              width: 100%;
+            }
+
+            .fields {
+              justify-content: center;
+              padding: 0;
+            }
+
+            .field {
+              margin: 5% 1%;
+              width: 100%;
+            }
+
+            .photo {
+              width: 100%;
+              margin-top: 5%;
+            }
+          }
+        }
+      }
+      .qa {
+        .grey {
+          .content {
+            width: 85%;
+            font-size: 1.6rem;
+
+            .pair {
+              line-height: 1.5;
+
+              .q {
+                padding: 0 8% 1% 9%;
+                background-size: 8% auto;
+              }
+
+              .a {
+                padding: 0 8% 1% 9%;
+              }
+            }
+          }
+        }
+      }
+
+      footer {
+        font-size: 1.75rem;
+
+        .my-container {
+          flex-flow: column;
+          padding: 5% 5%;
+
+          .info {
+            width: 100%;
+          }
+
+          .footer-menu {
+            width: 100%;
+            margin: 4vw 0;
+            border-left: none;
+            border-right: none;
+            border-top: solid 1px #fff;
+            border-bottom: solid 1px #fff;
+
+            ul {
+              li {
+                font-size: 1.4rem;
+                display: inline-block;
+              }
+            }
+          }
+
+          .contact {
+            font-size: 1.4rem;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

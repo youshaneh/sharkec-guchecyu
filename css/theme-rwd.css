@@ -1,1 +1,97 @@
-/*嚮應式語法寫在這*/
+@media (max-width: 575px) {
+  html {
+    font-size: 2.5vw;
+  }
+  html body .mobile-br {
+    display: block;
+  }
+  html body .mobile-hide {
+    display: none;
+  }
+  html body section {
+    padding: 8% 0 5% 0;
+  }
+  html body .my-container {
+    padding: 0 4%;
+  }
+  html body .commitment .content {
+    padding: 3.5% 2.5%;
+  }
+  html body .commitment .content ol li::before {
+    padding-left: 10vw;
+  }
+  html body .process .content .step {
+    width: 18%;
+  }
+  html body .process .content .step .description {
+    font-size: 1rem;
+    margin: 0 8%;
+  }
+  html body .process .content img.arrow {
+    padding-bottom: 16%;
+  }
+  html body .online-service .content form {
+    padding: 0 0;
+  }
+  html body .online-service .content form .divider {
+    width: 100%;
+  }
+  html body .online-service .content form .fields {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  html body .online-service .content form .field {
+    margin: 5% 1%;
+    width: 100%;
+  }
+  html body .online-service .content form .photo {
+    width: 100%;
+    margin-top: 5%;
+  }
+  html body .qa .grey .content {
+    width: 85%;
+    font-size: 1.6rem;
+  }
+  html body .qa .grey .content .pair {
+    line-height: 1.5;
+  }
+  html body .qa .grey .content .pair .q {
+    padding: 0 8% 1% 9%;
+    background-size: 8% auto;
+  }
+  html body .qa .grey .content .pair .a {
+    padding: 0 8% 1% 9%;
+  }
+  html body footer {
+    font-size: 1.75rem;
+  }
+  html body footer .my-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    padding: 5% 5%;
+  }
+  html body footer .my-container .info {
+    width: 100%;
+  }
+  html body footer .my-container .footer-menu {
+    width: 100%;
+    margin: 4vw 0;
+    border-left: none;
+    border-right: none;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+  }
+  html body footer .my-container .footer-menu ul li {
+    font-size: 1.4rem;
+    display: inline-block;
+  }
+  html body footer .my-container .contact {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=theme-rwd.css.map */
